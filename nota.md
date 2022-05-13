@@ -13,10 +13,18 @@
 - Añadir eventlistner a formulario en el botom submit dentro de la funcion de los eventos.
 - Dentro del evento usar el metedo prevenDefault() para evitar la recarga de la pagina por defecto 
 - Recoger contenido escrito por el usuario con .value y guardalo en una variable
-- Creamos una funcion que añade una nueva nota y se llama AddNote(note) (que es un objeto)
+- Crear una funcion que añade una nueva nota y se llama AddNote(note) (que es un objeto)
 - Ver si el Usuario ha escrito algo con una condicional y  en caso que sea true llamamos la funcion que añade una nota pasando un objeto con el contenido de la nota como argumento.
-- Copiamos el objeto que entra y añadimos el color y id dinamico
+- Copiar el objeto que entra y añadimos el color y id dinamico
 - Si no hay entrada en el array que contengan las notas devolvemos id: 1 si hay notas se busca la ultima entrada en el array  y su id y lo aumentamos por 1  y asi garantizamos que no se repiten los id
-- Reasignamos nuestro array con todas la notas ya existentes utilizando spread operator y añadiendo  la nueva nota al final
-- llamamos la funcion para mostrar la nota en DOM 
+- Reasignar nuestro array con todas la notas ya existentes utilizando spread operator y añadiendo  la nueva nota al final
+- llamar la funcion para mostrar la nota en DOM 
 - Averiguar si hay nota. Mostrar o ocultar placeholder dependiendo si hay o no notas en el array  
+- INSERTAR EN EL DOM TODAS LAS NOTAS UTILIZANDO innerhtml y el metodo map a nuestro array 
+- Añadir event click a nuestro boton de cierre de formulario
+- Resolver la tarea cuando haces click sobre el body ( mientras ya has introducido algun texto dentro de .value) Guardar una nueva nota  y cerrar el formulario
+- Añadir el divModal en el html para edicion de notas 
+- Crear la funcion para seleccionar la nota y en ella seleccionar la nota con el metodo event.target.closest
+- Obtener la informacion que esta en la nota y actualizar variables globales con estos datos 
+- Crear la funcion que abre modal y seleccionar la nota, abrir modal y rellenar los datos
+-
