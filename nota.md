@@ -27,4 +27,11 @@
 - Crear la funcion para seleccionar la nota y en ella seleccionar la nota con el metodo event.target.closest
 - Obtener la informacion que esta en la nota y actualizar variables globales con estos datos 
 - Crear la funcion que abre modal y seleccionar la nota, abrir modal y rellenar los datos
--
+- Eventlister para el boton de cierre de modal
+- Crear funcion que cierran el modal y editan la nota
+- Imprimir todas las notas el DOM de nuevo
+- Incrementar la funcion que abre el tooltip mientras se hace mouseover sobre el iconos de los colores en el modal
+_ Añadir toolpit en html
+- Hacer que tooltip tenga evento con el raton para que no se oculte mientras movamos el raton
+- Implementar la funcion de borrar la nota
+- Guardar las notas en localStorage
